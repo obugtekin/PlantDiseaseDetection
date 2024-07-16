@@ -26,6 +26,9 @@ F1 Score: 0.9918
 
 CUSTOM RESNET9 MODEL WITH SVM AS A CLASSIFIER RESULTS
 
+![image](https://github.com/user-attachments/assets/317ccb91-94ff-4ec0-97d2-29116711f75f)
+
+From this ResNet architecture you need to remove the last classifer and instead use the extracted features to train the SVM.
 
 Confusion Matrix:
 ![Figure_1svm](https://github.com/user-attachments/assets/2a2b2c44-5677-430a-8da0-e296d6f2f812)
