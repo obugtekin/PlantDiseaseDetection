@@ -26,6 +26,26 @@ F1 Score: 0.9918
 
 CUSTOM RESNET9 MODEL WITH SVM AS A CLASSIFIER RESULTS
 
++-------------------+      +-------------------+      +-----------------------+
+|                   |      |                   |      |                       |
+|    Train Data     |----->|    ResNet9        |----->|  Extracted Features   |
+|                   |      |    Model          |      |                       |
++-------------------+      +-------------------+      +-----------------------+
+                                                              |
+                                                              |
+                                                              v
+                                                        +-------------+
+                                                        |   Train      |
+                                                        |   SVM Model  |
+                                                        +-------------+
+                                                              |
+                                                              |
+                                                              v
+                                                        +-------------+
+                                                        |    Save      |
+                                                        |    SVM Model |
+                                                        +-------------+
+
 Confusion Matrix:
 ![Figure_1svm](https://github.com/user-attachments/assets/2a2b2c44-5677-430a-8da0-e296d6f2f812)
 
