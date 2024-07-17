@@ -44,3 +44,19 @@ Recall: 0.9971
 F1 Score: 0.9971
 
 
+CUSTOM RESNET9 MODEL WITH RANDOM FOREST AS A CLASSIFIER RESULTS
+
+![Figure_1RF](https://github.com/user-attachments/assets/d59d837b-68a0-40b4-a997-1b93d1cfcf3c)
+
+![Figure_2RF](https://github.com/user-attachments/assets/d0edd6a4-7a1c-4aa6-97b6-2f11410a1764)
+
+Accuracy: 99.13%
+
+Precision: 0.9914
+
+Recall: 0.9913
+
+F1 Score: 0.9913
+
+
+
