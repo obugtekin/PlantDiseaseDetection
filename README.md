@@ -58,5 +58,24 @@ Recall: 0.9913
 
 F1 Score: 0.9913
 
+CUSTOM RESNET9 MODEL WITH KNN AS A CLASSIFIER RESULTS
+
+![Figure_1KNN](https://github.com/user-attachments/assets/47d5c40c-239a-482f-bd3f-de2772109233)
+
+
+![Figure_2KNN](https://github.com/user-attachments/assets/96805865-30f5-46c8-ba3f-8b274f931eb4)
+
+Accuracy: 99.64%
+
+Precision: 0.9964
+
+Recall: 0.9964
+
+F1 Score: 0.9964
+
+
+
+
+
 
 
