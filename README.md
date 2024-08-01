@@ -73,6 +73,10 @@ Recall: 0.9964
 
 F1 Score: 0.9964
 
+USING PATCH EMBEDDING BEFORE THE MODEL
+
+ Val_accuracy: 0.9855
+
 
 
 
