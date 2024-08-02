@@ -1,6 +1,6 @@
-Dataset:https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data
+## Dataset:https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data
 
-Followed Notebook:https://www.kaggle.com/code/atharvaingle/plant-disease-classification-resnet-99-2
+## Followed Notebook:https://www.kaggle.com/code/atharvaingle/plant-disease-classification-resnet-99-2
 
 CUSTOM RESNET9 MODEL RESULTS
 
@@ -24,11 +24,11 @@ Recall: 0.9919
 
 F1 Score: 0.9918
 
-CUSTOM RESNET9 MODEL WITH SVM AS A CLASSIFIER RESULTS
+## CUSTOM RESNET9 MODEL WITH SVM AS A CLASSIFIER RESULTS
 
 ![image](https://github.com/user-attachments/assets/317ccb91-94ff-4ec0-97d2-29116711f75f)
 
-From this ResNet architecture you need to remove the last classifer and instead use the extracted features to train the SVM.
+### From this ResNet architecture you need to remove the last classifer and instead use the extracted features to train the SVM.
 
 Confusion Matrix:
 ![Figure_1svm](https://github.com/user-attachments/assets/2a2b2c44-5677-430a-8da0-e296d6f2f812)
@@ -44,7 +44,7 @@ Recall: 0.9971
 F1 Score: 0.9971
 
 
-CUSTOM RESNET9 MODEL WITH RANDOM FOREST AS A CLASSIFIER RESULTS
+## CUSTOM RESNET9 MODEL WITH RANDOM FOREST AS A CLASSIFIER RESULTS
 
 ![Figure_1RF](https://github.com/user-attachments/assets/d59d837b-68a0-40b4-a997-1b93d1cfcf3c)
 
@@ -58,7 +58,7 @@ Recall: 0.9913
 
 F1 Score: 0.9913
 
-CUSTOM RESNET9 MODEL WITH KNN AS A CLASSIFIER RESULTS
+## CUSTOM RESNET9 MODEL WITH KNN AS A CLASSIFIER RESULTS
 
 ![Figure_1KNN](https://github.com/user-attachments/assets/47d5c40c-239a-482f-bd3f-de2772109233)
 
@@ -73,7 +73,7 @@ Recall: 0.9964
 
 F1 Score: 0.9964
 
-USING PATCH EMBEDDING BEFORE THE MODEL
+## USING PATCH EMBEDDING BEFORE THE MODEL
 
  Val_accuracy: 0.9855
 
