@@ -73,7 +73,7 @@ Recall: 0.9964
 
 F1 Score: 0.9964
 
-## USING PATCH EMBEDDING BEFORE THE MODEL
+##  PATCH EMBEDDING 
 
 Patch Extraction: The PatchEmbedding class uses a nn.Conv2d layer to divide the input image into non-overlapping patches (patch_size) and projects them into an embedding space of size emb_size.
 
