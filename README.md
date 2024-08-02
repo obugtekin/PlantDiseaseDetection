@@ -75,7 +75,11 @@ F1 Score: 0.9964
 
 ## USING PATCH EMBEDDING BEFORE THE MODEL
 
- Val_accuracy: 0.9855
+Patch Extraction: The PatchEmbedding class uses a nn.Conv2d layer to divide the input image into non-overlapping patches (patch_size) and projects them into an embedding space of size emb_size.
+
+Flattening and Reshaping: The extracted patches are flattened and transposed to form a sequence of patch embeddings suitable for subsequent layers.
+
+Val_accuracy: 0.9855
 
 
 
